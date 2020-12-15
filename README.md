@@ -100,4 +100,6 @@ ADD MEOWMORY PALETTE
 ### Using GitHub 
 ### Running Locally
 # Credits 
+- Screenshot taken from [Glossier](https://www.glossier.com/free-stuff)
+- Color palette and graphic created on [Coolors](https://www.coolors.co/)
 
