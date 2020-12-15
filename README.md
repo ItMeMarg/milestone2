@@ -50,6 +50,7 @@ I found sketching the project's layout and elements by hand to be the most produ
 - Buttons offer feedback to users when selected.
 ### Future Implementation
 Upcoming updates to this project could include: 
+- design update to solidify cat theme (difficulty buttons updated from droplets to cats, burger button updated from mouse to yarn ball).
 - a dark/light mode for users to switch between. 
 - additional difficulty levels.
 - a timing feature to encourage faster selections. 
