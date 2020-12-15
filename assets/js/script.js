@@ -64,4 +64,6 @@ const catArray = [
         img: 'images/yarn.png'
     }
 ];
+
+
 });
