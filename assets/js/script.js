@@ -1,70 +1,78 @@
 $(function(){
 
-//cat tiles
+// cat tiles
 const catArray = [
     {
-        name: 'bandana',
-        img: 'images/bandana.png'
+        name: "bandana",
+        img: "images/bandana.png"
     },
     {
-        name: 'bathe',
-        img: 'images/bathe.png'
+        name: "bathe",
+        img: "images/bathe.png"
     },
     {
-        name: 'bow',
-        img: 'images/bow.png'
+        name: "bow",
+        img: "images/bow.png"
     },
     {
-        name: 'box',
-        img: 'images/box.png'
+        name: "box",
+        img: "images/box.png"
     },
     {
-        name: 'fluffy',
-        img: 'images/fluffy.png'
+        name: "fluffy",
+        img: "images/fluffy.png"
     },    
     {
-        name: 'food',
-        img: 'images/food.png'
+        name: "food",
+        img: "images/food.png"
     },
         
     {
-        name: 'hat',
-        img: 'images/hat.png'
+        name: "hat",
+        img: "images/hat.png"
     },    
     {
-        name: 'layin',
-        img: 'images/layin.png'
+        name: "layin",
+        img: "images/layin.png"
     },    
     {
-        name: 'leaves',
-        img: 'images/leaves.png'
+        name: "leaves",
+        img: "images/leaves.png"
     },    
     {
-        name: 'magazine',
-        img: 'images/magazine.png'
+        name: "magazine",
+        img: "images/magazine.png"
     },    
     {
-        name: 'party',
-        img: 'images/party.png'
+        name: "party",
+        img: "images/party.png"
     },    
     {
-        name: 'rug',
-        img: 'images/rug.png'
+        name: "rug",
+        img: "images/rug.png"
     },    
     {
-        name: 'sleep',
-        img: 'images/sleep.png'
+        name: "sleep",
+        img: "images/sleep.png"
     },    
     {
-        name: 'walking',
-        img: 'images/walking.png'
+        name: "walking",
+        img: "images/walking.png"
     },    
     {
-        name: 'yarn',
-        img: 'images/yarn.png'
+        name: "yarn",
+        img: "images/yarn.png"
     }
 ];
 
-//create board
+// board
+let gameBoard = $("#game-board");
+
+function newBoard() {
+    for (let i = 0; i < catArray.length; i++) {
+        let blankTiles = gameBoard.append("<div class='game-tile'></div>");
+    };
+};
+newBoard();
 
 });
