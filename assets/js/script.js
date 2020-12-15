@@ -65,5 +65,6 @@ const catArray = [
     }
 ];
 
+//create board
 
 });

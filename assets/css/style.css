@@ -14,7 +14,7 @@ body {
     font-style: italic;
 }
 
-#meowmory-board {
+#game-board {
     height: 500px;
     width: 500px;
     display: flex;
