@@ -70,7 +70,8 @@ let gameBoard = $("#game-board");
 
 function newBoard() {
     for (let i = 0; i < catArray.length; i++) {
-        let blankTiles = gameBoard.append("<div class='game-tile'></div>");
+        let blankTilesA = gameBoard.append("<div class='game-tile'></div>");
+        let blankTilesB = gameBoard.append("<div class='game-tile'></div>");
     };
 };
 newBoard();
