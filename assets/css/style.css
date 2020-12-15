@@ -6,7 +6,7 @@ body {
 }
 
 #meowmory-title {
-    font-size: 2em;
+    font-size: 5em;
 }
 
 #meowmory-board {
@@ -14,8 +14,6 @@ body {
     width: 500px;
 }
 
-#message-button {
-    color: purple;
-}
+
 
 
