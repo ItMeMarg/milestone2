@@ -122,4 +122,5 @@ After loading the [project repository](https://github.com/ItMeMarg/milestone2) s
 # Credits 
 - Screenshot taken from [Glossier](https://www.glossier.com/free-stuff)
 - Color palette and graphic created on [Coolors](https://www.coolors.co/)
+- [codeSTACKr](https://www.youtube.com/watch?v=DPnJldwv22o)'s tutorial on Bootstrap Icons helped me decide the best way to intigrate Bootstrap's latest feature into my project
 
