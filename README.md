@@ -45,17 +45,26 @@ ADD MEOWMORY PALETTE
 I found sketching the project's layout and elements by hand to be the most productive. The wireframes for this project can be found [here](ADD WIREFRAME FILES).
 # Features
 ### Already Developed
-- 
-- eg
+- Contact form for users to send feedback.
+- Three difficulty levels for users to choose from.
+- Buttons offer feedback to users when selected.
 ### Future Implementation
 Upcoming updates to this project could include: 
 - a dark/light mode for users to switch between. 
 - additional difficulty levels.
 - a timing feature to encourage faster selections. 
 # Technologies Used
-
 ### Languages
+- [HTML5](https://www.w3schools.com/html/html_intro.asp)
+- [CSS3](https://www.w3schools.com/css/css_intro.asp)
+- [JavaScript](https://www.w3schools.com/js/js_intro.asp)
 ### Tools and Libraries
+- [Git](https://github.com/) - project hosting and deployment
+- [Bootstrap v5.0.x](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - basic formatting and layout, icons
+- [jQuery](https://www.w3schools.com/jquery/jquery_intro.asp) - JavaScript library
+- [Coolors](https://coolors.co/u/ItMeMarg) - developed color palette
+- [Favicon Generator](https://realfavicongenerator.net/)
+- [Table of Content generator](https://ecotrust-canada.github.io/markdown-toc/)
 # Testing
 - expected
     Site is expected to do THIS when user does THAT
