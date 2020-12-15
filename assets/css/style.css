@@ -17,10 +17,17 @@ body {
 #meowmory-board {
     height: 500px;
     width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
 }
 
 .btn {
     color: #FFA6C1; /* Carnation Pink  */
 }
 
+
+img {
+    background-color: #F9DCE0; /* Pale Pink */
+}
 
