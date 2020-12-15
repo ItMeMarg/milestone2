@@ -4,76 +4,82 @@ $(function(){
 const catArray = [
     {
         name: "bandana",
-        img: "images/bandana.png"
+        img: "assets/images/bandana.png"
     },
     {
         name: "bathe",
-        img: "images/bathe.png"
+        img: "assets/images/bathe.png"
     },
     {
         name: "bow",
-        img: "images/bow.png"
+        img: "assets/images/bow.png"
     },
     {
         name: "box",
-        img: "images/box.png"
+        img: "assets/images/box.png"
     },
     {
         name: "fluffy",
-        img: "images/fluffy.png"
+        img: "assets/images/fluffy.png"
     },    
     {
         name: "food",
-        img: "images/food.png"
+        img: "assets/images/food.png"
     },
-        
     {
         name: "hat",
-        img: "images/hat.png"
+        img: "assets/images/hat.png"
     },    
     {
         name: "layin",
-        img: "images/layin.png"
+        img: "assets/images/layin.png"
     },    
     {
         name: "leaves",
-        img: "images/leaves.png"
+        img: "assets/images/leaves.png"
     },    
     {
         name: "magazine",
-        img: "images/magazine.png"
+        img: "assets/images/magazine.png"
     },    
     {
         name: "party",
-        img: "images/party.png"
+        img: "assets/images/party.png"
     },    
     {
         name: "rug",
-        img: "images/rug.png"
+        img: "assets/images/rug.png"
     },    
     {
         name: "sleep",
-        img: "images/sleep.png"
+        img: "assets/images/sleep.png"
     },    
     {
         name: "walking",
-        img: "images/walking.png"
+        img: "assets/images/walking.png"
     },    
     {
         name: "yarn",
-        img: "images/yarn.png"
+        img: "assets/images/yarn.png"
+    },
+    {
+        name: "blank",
+        img: "assets/images/blank.png"
     }
 ];
 
 // board
 let gameBoard = $("#game-board");
+// tile divs
+let gameTiles = gameBoard.append("<div class='game-tile'></div>");
 
 function newBoard() {
     for (let i = 0; i < catArray.length; i++) {
-        let blankTilesA = gameBoard.append("<div class='game-tile'></div>");
-        let blankTilesB = gameBoard.append("<div class='game-tile'></div>");
-    };
+        let tile = document.createElement("img");
+        $(tile).addClass(".game-tile");
+    }
 };
+
 newBoard();
 
 });
