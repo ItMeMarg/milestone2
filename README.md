@@ -42,14 +42,18 @@ ADD MEOWMORY PALETTE
 - **Interactive Element Color** #FFA6C1 Carnation Pink will be used as the background color on clickable, interactive elements.
 - **Font and Icon color** #000 To round out the soft pinks, Black will be used on icons and text. 
 # Wireframes
+I found sketching the project's layout and elements by hand to be the most productive. The wireframes for this project can be found [here](ADD WIREFRAME FILES).
 # Features
 ### Already Developed
-- eg
+- 
 - eg
 ### Future Implementation
-- eg
-- eg
+Upcoming updates to this project could include: 
+- a dark/light mode for users to switch between. 
+- additional difficulty levels.
+- a timing feature to encourage faster selections. 
 # Technologies Used
+
 ### Languages
 ### Tools and Libraries
 # Testing
