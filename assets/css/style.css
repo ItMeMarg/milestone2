@@ -2,5 +2,15 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+}
+
+#meowmory-title {
+    font-size: 2em;
+}
+
+#meowmory-board {
+    height: 500px;
+    width: 500px;
 }
 
