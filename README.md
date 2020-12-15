@@ -110,8 +110,15 @@ Upcoming updates to this project could include:
 - fix
 - verdict
 # Deployment
-### Using GitHub 
+### Using GitHub
+This project resides in [GitHub](https://github.com/ItMeMarg/milestone2); [GitPages](https://itmemarg.github.io/milestone2/) hosts the master repository.
+
+To deploy this project, I followed [these steps](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site): 
+1.  Selected the *Settings* tab within the project repository.
+2.  In the *GutHub Pages* tab, I used the *Source* drop-down menu to select *master branch* as the publising source. 
+
 ### Running Locally
+After loading the [project repository](https://github.com/ItMeMarg/milestone2) select the *Clone* button to *Open in Desktop* or *Download ZIP*. After opening the unzipped file, execute index.html to load the homepage. 
 # Credits 
 - Screenshot taken from [Glossier](https://www.glossier.com/free-stuff)
 - Color palette and graphic created on [Coolors](https://www.coolors.co/)
