@@ -1,7 +1,7 @@
 $(function(){
 
-// cat tiles
-const catArray = [
+// tiles
+const tileArray = [
     {
         name: "bandana",
         img: "assets/images/bandana.png"
@@ -68,16 +68,36 @@ const catArray = [
     }
 ];
 
+//Fisher-Yates shuffle algorithm 
+let tileShuffle = function(tileArray) {
+    //tracks place in array
+    let newPos,
+        temp;
+    //iterates backward
+    for (let i = tileArray.length - 1; i > 0; i--) {
+        //pseudo random position, rounds to integer
+        newPos = Math.floor(Math.random() * (i + 1));
+        //switching positions
+        temp = tileArray[i]; 
+        tileArray[i] = tileArray[newPos];
+        tileArray[newPos] = temp; 
+    }
+    return tileArray;
+};
+let shuffledTiles = tileShuffle(tileArray);
+// test array shuffle
+// console.log(shuffledTiles);
+
+
 // board
 let gameBoard = $("#game-board");
-// tile divs
-let gameTiles = gameBoard.append("<div class='game-tile'></div>");
 
+// create new board for player
 function newBoard() {
-    for (let i = 0; i < catArray.length; i++) {
-        let tile = document.createElement("img");
-        $(tile).addClass(".game-tile");
-    }
+    for (let i = 0; i < tileArray.length; i++) {
+        // dynamically add 
+    };
+ 
 };
 
 newBoard();

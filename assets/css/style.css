@@ -29,8 +29,6 @@ body {
 .game-tile {
     height: 100px;
     width: 100px;
-    overflow: hidden;
     border-radius: 50%;
-    background-color: #FFA6C1; /* Carnation Pink  */
     border: 1px solid black;
 }
