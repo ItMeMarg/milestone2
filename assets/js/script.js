@@ -80,28 +80,34 @@ let tileShuffle = function(tileArray) {
     }
     return tileArray;
 };
+
 let shuffledTiles = tileShuffle(tileArray);
 // test array shuffle
-console.log(shuffledTiles);
+//console.log(shuffledTiles);
 
 // empty arrays
 let tilesChosen = [];
 let tilesChosenId = [];
 
-let difficultyOne = [];
-let difficultyTwo = [];
-let difficultyThree = [];
+// Difficulties 
+let difficultyOne = shuffledTiles.slice(0, 4).sort();
+let difficultyTwo = shuffledTiles.slice(0, 8).sort();
+let difficultyThree = shuffledTiles.slice(0).sort();
+console.log(difficultyOne);
+console.log(difficultyTwo);
+console.log( difficultyThree);
 
 // board
 let gameBoard = $("#game-board");
 
-// create new board for player
-function newBoard() {
-    for (let i = 0; i < shuffledTiles.length; i++) {
- 
-    };
-};
 
-newBoard();
+// create new board for player
+//function newBoard() {
+//    for (let i = 0; i < shuffledTiles.length; i++) {
+
+  //  };
+//};
+
+//newBoard();
 
 });
